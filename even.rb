@@ -1,10 +1,9 @@
- puts('Enter a number to Check');
+puts('Enter a number to Check');
 
    num=gets
    num=num.to_i
    if(num%2==0)
-   then
    puts "  "+num.to_s+ "is even"+"\n"
    else
-   puts "  "+num.to_s+ " is odd"+"\n"
-   end
+   puts "  "+num.to_s+ "is odd"+"\n"
+end
